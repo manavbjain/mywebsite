@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Manav Jain</title>
+    <link>https://yourwebsite.com/projects/</link>
+    <description>Recent content in Projects on Manav Jain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourwebsite.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-commerce Platform</title>
+      <link>https://yourwebsite.com/projects/project1/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/projects/project1/</guid>
+      <description>&lt;h1 id=&#34;e-commerce-platform&#34;&gt;E-commerce Platform&lt;/h1&gt;&#xA;&lt;p&gt;A comprehensive e-commerce solution that demonstrates modern web development practices and full-stack capabilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project showcases a complete e-commerce platform built from the ground up using modern technologies. The platform includes everything from product browsing to secure payment processing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;user-experience&#34;&gt;User Experience&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsive design that works seamlessly across all devices&lt;/li&gt;&#xA;&lt;li&gt;Fast product search and filtering capabilities&lt;/li&gt;&#xA;&lt;li&gt;Intuitive shopping cart and checkout process&lt;/li&gt;&#xA;&lt;li&gt;User account management and order history&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;admin-dashboard&#34;&gt;Admin Dashboard&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Product management (add, edit, delete products)&lt;/li&gt;&#xA;&lt;li&gt;Order management and tracking&lt;/li&gt;&#xA;&lt;li&gt;User management and analytics&lt;/li&gt;&#xA;&lt;li&gt;Inventory tracking and alerts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Built with Next.js and React for optimal performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Styling&lt;/strong&gt;: Tailwind CSS for rapid, responsive design&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: PostgreSQL for reliable data storage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Authentication&lt;/strong&gt;: JWT-based authentication system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Payments&lt;/strong&gt;: Stripe integration for secure transactions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Vercel for seamless CI/CD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenges-overcome&#34;&gt;Challenges Overcome&lt;/h2&gt;&#xA;&lt;h3 id=&#34;performance-optimization&#34;&gt;Performance Optimization&lt;/h3&gt;&#xA;&lt;p&gt;Implemented image optimization, lazy loading, and code splitting to ensure fast load times even with large product catalogs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

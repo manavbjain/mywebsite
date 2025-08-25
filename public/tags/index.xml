@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Manav Jain</title>
+    <link>https://yourwebsite.com/tags/</link>
+    <description>Recent content in Tags on Manav Jain</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourwebsite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>https://yourwebsite.com/tags/blogging/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Getting Started</title>
+      <link>https://yourwebsite.com/tags/getting-started/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>https://yourwebsite.com/tags/web-development/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://yourwebsite.com/tags/best-practices/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>https://yourwebsite.com/tags/javascript/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>https://yourwebsite.com/tags/tips/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yourwebsite.com/tags/tips/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
