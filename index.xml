@@ -1,33 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Manav Jain</title>
-    <link>https://yourwebsite.com/</link>
-    <description>Recent content on Manav Jain</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yourwebsite.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Blog Post</title>
-      <link>https://yourwebsite.com/blog/blog1/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://yourwebsite.com/blog/blog1/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h1&gt;&#xA;&lt;p&gt;This is my first blog post on my new portfolio website. I&amp;rsquo;m excited to share my journey in web development and the things I learn along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-can-expect&#34;&gt;What You Can Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be sharing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical tutorials&lt;/strong&gt; and how-to guides&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project breakdowns&lt;/strong&gt; and lessons learned&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry insights&lt;/strong&gt; and trends I find interesting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personal reflections&lt;/strong&gt; on my development journey&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-i-started-blogging&#34;&gt;Why I Started Blogging&lt;/h2&gt;&#xA;&lt;p&gt;Writing about what I learn helps me:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript Tips I Wish I Knew Earlier</title>
-      <link>https://yourwebsite.com/notes/notes1/</link>
-      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://yourwebsite.com/notes/notes1/</guid>
-      <description>&lt;h1 id=&#34;javascript-tips-i-wish-i-knew-earlier&#34;&gt;JavaScript Tips I Wish I Knew Earlier&lt;/h1&gt;&#xA;&lt;p&gt;Here are some JavaScript tips that have made my development process much smoother.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-use-optional-chaining&#34;&gt;1. Use Optional Chaining&lt;/h2&gt;&#xA;&lt;p&gt;Instead of writing multiple checks:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;address&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;address&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;street&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;address&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;street&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Use optional chaining:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;?&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;address&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;?&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;street&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h2 id=&#34;2-destructuring-with-default-values&#34;&gt;2. Destructuring with Default Values&lt;/h2&gt;&#xA;&lt;p&gt;You can provide default values when destructuring:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Anonymous&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;age&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;user&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h2 id=&#34;3-arrayfrom-for-quick-array-generation&#34;&gt;3. Array.from() for Quick Array Generation&lt;/h2&gt;&#xA;&lt;p&gt;Generate arrays with specific patterns:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Create array [0, 1, 2, 3, 4]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;numbers&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// Create array of repeated values&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;zeros&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;Array&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;({&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// [0, 0, 0]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h2 id=&#34;4-use-set-for-unique-values&#34;&gt;4. Use Set for Unique Values&lt;/h2&gt;&#xA;&lt;p&gt;Remove duplicates from an array:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>E-commerce Platform</title>
-      <link>https://yourwebsite.com/projects/project1/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://yourwebsite.com/projects/project1/</guid>
-      <description>&lt;h1 id=&#34;e-commerce-platform&#34;&gt;E-commerce Platform&lt;/h1&gt;&#xA;&lt;p&gt;A comprehensive e-commerce solution that demonstrates modern web development practices and full-stack capabilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This project showcases a complete e-commerce platform built from the ground up using modern technologies. The platform includes everything from product browsing to secure payment processing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;user-experience&#34;&gt;User Experience&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsive design that works seamlessly across all devices&lt;/li&gt;&#xA;&lt;li&gt;Fast product search and filtering capabilities&lt;/li&gt;&#xA;&lt;li&gt;Intuitive shopping cart and checkout process&lt;/li&gt;&#xA;&lt;li&gt;User account management and order history&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;admin-dashboard&#34;&gt;Admin Dashboard&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Product management (add, edit, delete products)&lt;/li&gt;&#xA;&lt;li&gt;Order management and tracking&lt;/li&gt;&#xA;&lt;li&gt;User management and analytics&lt;/li&gt;&#xA;&lt;li&gt;Inventory tracking and alerts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;technical-implementation&#34;&gt;Technical Implementation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Built with Next.js and React for optimal performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Styling&lt;/strong&gt;: Tailwind CSS for rapid, responsive design&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database&lt;/strong&gt;: PostgreSQL for reliable data storage&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Authentication&lt;/strong&gt;: JWT-based authentication system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Payments&lt;/strong&gt;: Stripe integration for secure transactions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Vercel for seamless CI/CD&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;challenges-overcome&#34;&gt;Challenges Overcome&lt;/h2&gt;&#xA;&lt;h3 id=&#34;performance-optimization&#34;&gt;Performance Optimization&lt;/h3&gt;&#xA;&lt;p&gt;Implemented image optimization, lazy loading, and code splitting to ensure fast load times even with large product catalogs.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manav Jain</title><link>https://yourwebsite.com/</link><description>Recent content on Manav Jain</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yourwebsite.com/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Blog Post</title><link>https://yourwebsite.com/blog/blog1/</link><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><guid>https://yourwebsite.com/blog/blog1/</guid><description>&lt;h1 id="welcome-to-my-blog">Welcome to My Blog!&lt;/h1>
+&lt;p>This is my first blog post on my new portfolio website. I&amp;rsquo;m excited to share my journey in web development and the things I learn along the way.&lt;/p>
+&lt;h2 id="what-you-can-expect">What You Can Expect&lt;/h2>
+&lt;p>In this blog, I&amp;rsquo;ll be sharing:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Technical tutorials&lt;/strong> and how-to guides&lt;/li>
+&lt;li>&lt;strong>Project breakdowns&lt;/strong> and lessons learned&lt;/li>
+&lt;li>&lt;strong>Industry insights&lt;/strong> and trends I find interesting&lt;/li>
+&lt;li>&lt;strong>Personal reflections&lt;/strong> on my development journey&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-i-started-blogging">Why I Started Blogging&lt;/h2>
+&lt;p>Writing about what I learn helps me:&lt;/p></description></item><item><title>JavaScript Tips I Wish I Knew Earlier</title><link>https://yourwebsite.com/notes/notes1/</link><pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate><guid>https://yourwebsite.com/notes/notes1/</guid><description>&lt;h1 id="javascript-tips-i-wish-i-knew-earlier">JavaScript Tips I Wish I Knew Earlier&lt;/h1>
+&lt;p>Here are some JavaScript tips that have made my development process much smoother.&lt;/p>
+&lt;h2 id="1-use-optional-chaining">1. Use Optional Chaining&lt;/h2>
+&lt;p>Instead of writing multiple checks:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">user&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nx">user&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nx">user&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">street&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">user&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">street&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Use optional chaining:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">user&lt;/span>&lt;span class="o">?&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="o">?&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">street&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="2-destructuring-with-default-values">2. Destructuring with Default Values&lt;/h2>
+&lt;p>You can provide default values when destructuring:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Anonymous&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">age&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">user&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="3-arrayfrom-for-quick-array-generation">3. Array.from() for Quick Array Generation&lt;/h2>
+&lt;p>Generate arrays with specific patterns:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Create array [0, 1, 2, 3, 4]
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">const&lt;/span> &lt;span class="nx">numbers&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">Array&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">from&lt;/span>&lt;span class="p">({&lt;/span> &lt;span class="nx">length&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">5&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">_&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">i&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="nx">i&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// Create array of repeated values
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">const&lt;/span> &lt;span class="nx">zeros&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">Array&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">from&lt;/span>&lt;span class="p">({&lt;/span> &lt;span class="nx">length&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mi">3&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c1">// [0, 0, 0]
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="4-use-set-for-unique-values">4. Use Set for Unique Values&lt;/h2>
+&lt;p>Remove duplicates from an array:&lt;/p></description></item><item><title>E-commerce Platform</title><link>https://yourwebsite.com/projects/project1/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://yourwebsite.com/projects/project1/</guid><description>&lt;h1 id="e-commerce-platform">E-commerce Platform&lt;/h1>
+&lt;p>A comprehensive e-commerce solution that demonstrates modern web development practices and full-stack capabilities.&lt;/p>
+&lt;h2 id="project-overview">Project Overview&lt;/h2>
+&lt;p>This project showcases a complete e-commerce platform built from the ground up using modern technologies. The platform includes everything from product browsing to secure payment processing.&lt;/p>
+&lt;h2 id="key-features">Key Features&lt;/h2>
+&lt;h3 id="user-experience">User Experience&lt;/h3>
+&lt;ul>
+&lt;li>Responsive design that works seamlessly across all devices&lt;/li>
+&lt;li>Fast product search and filtering capabilities&lt;/li>
+&lt;li>Intuitive shopping cart and checkout process&lt;/li>
+&lt;li>User account management and order history&lt;/li>
+&lt;/ul>
+&lt;h3 id="admin-dashboard">Admin Dashboard&lt;/h3>
+&lt;ul>
+&lt;li>Product management (add, edit, delete products)&lt;/li>
+&lt;li>Order management and tracking&lt;/li>
+&lt;li>User management and analytics&lt;/li>
+&lt;li>Inventory tracking and alerts&lt;/li>
+&lt;/ul>
+&lt;h3 id="technical-implementation">Technical Implementation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Frontend&lt;/strong>: Built with Next.js and React for optimal performance&lt;/li>
+&lt;li>&lt;strong>Styling&lt;/strong>: Tailwind CSS for rapid, responsive design&lt;/li>
+&lt;li>&lt;strong>Database&lt;/strong>: PostgreSQL for reliable data storage&lt;/li>
+&lt;li>&lt;strong>Authentication&lt;/strong>: JWT-based authentication system&lt;/li>
+&lt;li>&lt;strong>Payments&lt;/strong>: Stripe integration for secure transactions&lt;/li>
+&lt;li>&lt;strong>Deployment&lt;/strong>: Vercel for seamless CI/CD&lt;/li>
+&lt;/ul>
+&lt;h2 id="challenges-overcome">Challenges Overcome&lt;/h2>
+&lt;h3 id="performance-optimization">Performance Optimization&lt;/h3>
+&lt;p>Implemented image optimization, lazy loading, and code splitting to ensure fast load times even with large product catalogs.&lt;/p></description></item></channel></rss>

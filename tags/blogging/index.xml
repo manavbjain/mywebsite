@@ -1,19 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogging on Manav Jain</title>
-    <link>https://yourwebsite.com/tags/blogging/</link>
-    <description>Recent content in Blogging on Manav Jain</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yourwebsite.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Blog Post</title>
-      <link>https://yourwebsite.com/blog/blog1/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://yourwebsite.com/blog/blog1/</guid>
-      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h1&gt;&#xA;&lt;p&gt;This is my first blog post on my new portfolio website. I&amp;rsquo;m excited to share my journey in web development and the things I learn along the way.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-you-can-expect&#34;&gt;What You Can Expect&lt;/h2&gt;&#xA;&lt;p&gt;In this blog, I&amp;rsquo;ll be sharing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical tutorials&lt;/strong&gt; and how-to guides&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Project breakdowns&lt;/strong&gt; and lessons learned&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Industry insights&lt;/strong&gt; and trends I find interesting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personal reflections&lt;/strong&gt; on my development journey&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-i-started-blogging&#34;&gt;Why I Started Blogging&lt;/h2&gt;&#xA;&lt;p&gt;Writing about what I learn helps me:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogging on Manav Jain</title><link>https://yourwebsite.com/tags/blogging/</link><description>Recent content in Blogging on Manav Jain</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://yourwebsite.com/tags/blogging/index.xml" rel="self" type="application/rss+xml"/><item><title>My First Blog Post</title><link>https://yourwebsite.com/blog/blog1/</link><pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate><guid>https://yourwebsite.com/blog/blog1/</guid><description>&lt;h1 id="welcome-to-my-blog">Welcome to My Blog!&lt;/h1>
+&lt;p>This is my first blog post on my new portfolio website. I&amp;rsquo;m excited to share my journey in web development and the things I learn along the way.&lt;/p>
+&lt;h2 id="what-you-can-expect">What You Can Expect&lt;/h2>
+&lt;p>In this blog, I&amp;rsquo;ll be sharing:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Technical tutorials&lt;/strong> and how-to guides&lt;/li>
+&lt;li>&lt;strong>Project breakdowns&lt;/strong> and lessons learned&lt;/li>
+&lt;li>&lt;strong>Industry insights&lt;/strong> and trends I find interesting&lt;/li>
+&lt;li>&lt;strong>Personal reflections&lt;/strong> on my development journey&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-i-started-blogging">Why I Started Blogging&lt;/h2>
+&lt;p>Writing about what I learn helps me:&lt;/p></description></item></channel></rss>
