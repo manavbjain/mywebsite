@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Manav Jain</title>
+    <meta name="description" content="A passionate Cybersecurity Researcher">
+    
+    
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0B59AE">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        .btn-primary {
+            background-color: #063466;
+            color: white;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .btn-primary:hover {
+            background-color: #052d5a;
+        }
+        .btn-secondary {
+            background-color: #e5e7eb;
+            color: #111827;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .btn-secondary:hover {
+            background-color: #d1d5db;
+        }
+        .prose {
+            max-width: none;
+            color: #374151;
+        }
+        .prose h1, .prose h2, .prose h3, .prose h4 {
+            color: #111827;
+            font-weight: 600;
+        }
+        .prose a {
+            color: #063466;
+            text-decoration: underline;
+        }
+        .prose code {
+            background-color: #f3f4f6;
+            padding: 0.125rem 0.25rem;
+            border-radius: 0.25rem;
+            font-size: 0.875em;
+        }
+        .prose pre {
+            background-color: #1f2937;
+            color: #e5e7eb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+        }
+        .prose pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white text-gray-900 flex flex-col">
+    
+    <nav class="shadow-sm border-b border-gray-200" style="background-color: #0B59AE;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="/" class="text-xl font-bold text-white hover:text-gray-200 transition-colors">
+                        Manav Jain
+                    </a>
+                </div>
+                
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    
+                    <a href="/contact/" class="text-white hover:text-gray-200 transition-colors text-lg">
+                        Contact
+                    </a>
+                    
+                </div>
+
+                
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-white hover:text-gray-200">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            
+            <div id="mobile-menu" class="md:hidden hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                    
+                    <a href="/contact/" class="block px-3 py-2 text-white hover:text-gray-200 text-lg">
+                        Contact
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="flex-1">
+        
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+            Blog
+        </h1>
+        <p class="text-xl text-gray-600 dark:text-gray-300">
+            Thoughts, tutorials, and insights on web development and technology.
+        </p>
+    </div>
+
+    <div class="space-y-12">
+        
+        <article class="border-b border-gray-200 dark:border-gray-700 pb-12">
+            <header class="mb-4">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="https://yourwebsite.com/blog/blog1/" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                        My First Blog Post
+                    </a>
+                </h2>
+                <div class="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+                    <time datetime="2025-01-25">
+                        January 25, 2025
+                    </time>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        
+                        <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded">
+                            blogging
+                        </span>
+                        
+                        <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded">
+                            web development
+                        </span>
+                        
+                        <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded">
+                            getting started
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </header>
+            
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+                Welcome to my blog! This is my first post where I share my thoughts on web development.
+            </p>
+            
+            <a href="https://yourwebsite.com/blog/blog1/" class="text-blue-600 dark:text-blue-400 hover:underline">
+                Read more →
+            </a>
+        </article>
+        
+    </div>
+</div>
+
+    </main>
+
+    
+    <footer class="border-t border-gray-200" style="background-color: #0B59AE;">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-white">
+                        © 2025 Manav Jain. All rights reserved.
+                    </p>
+                </div>
+                <div class="flex space-x-6">
+                    
+                    <a href="https://github.com/manavbjain" class="text-white hover:text-gray-200">
+                        <i class="fab fa-github mr-2"></i>GitHub
+                    </a>
+                    
+                    
+                    <a href="https://linkedin.com/in/manavbjain" class="text-white hover:text-gray-200">
+                        <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                    </a>
+                    
+                    
+                    <a href="https://twitter.com/h0rspwr" class="text-white hover:text-gray-200">
+                        <i class="fab fa-twitter mr-2"></i>Twitter
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
