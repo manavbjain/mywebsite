@@ -19,13 +19,13 @@
                     </div>
                     
                     <!-- Name and Title -->
-                    <h1 class="text-4xl font-bold text-gray-900 mb-3">
+                    <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-3">
                         {{ .Site.Params.name }}
                     </h1>
-                    <h2 class="text-2xl text-gray-600 mb-3" style="color: #063466;">
+                    <h2 class="text-2xl text-gray-600 dark:text-gray-300 mb-3" style="color: #063466;">
                         {{ .Site.Params.title | default "Software Developer" }}
                     </h2>
-                    <h3 class="text-xl text-gray-600 mb-8">
+                    <h3 class="text-xl text-gray-600 dark:text-gray-300 mb-8">
                         {{ .Site.Params.affiliation | default "Your Company/University" }}
                     </h3>
                     
@@ -33,35 +33,35 @@
                     <div class="flex justify-center space-x-6">
                         {{ with .Site.Params.email }}
                         <a href="mailto:{{ . }}" 
-                           class="text-gray-600 hover:text-gray-800 text-3xl" 
+                           class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 text-3xl" 
                            style="color: #063466;">
                             <i class="fas fa-envelope"></i>
                         </a>
                         {{ end }}
                         {{ with .Site.Params.github }}
                         <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
-                           class="text-gray-600 hover:text-gray-800 text-3xl"
+                           class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 text-3xl"
                            style="color: #063466;">
                             <i class="fab fa-github"></i>
                         </a>
                         {{ end }}
                         {{ with .Site.Params.linkedin }}
                         <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
-                           class="text-gray-600 hover:text-gray-800 text-3xl"
+                           class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 text-3xl"
                            style="color: #063466;">
                             <i class="fab fa-linkedin"></i>
                         </a>
                         {{ end }}
                         {{ with .Site.Params.twitter }}
                         <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
-                           class="text-gray-600 hover:text-gray-800 text-3xl"
+                           class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 text-3xl"
                            style="color: #063466;">
                             <i class="fab fa-twitter"></i>
                         </a>
                         {{ end }}
                         {{ with .Site.Params.scholar }}
                         <a href="{{ . }}" target="_blank" rel="noopener noreferrer"
-                           class="text-gray-600 hover:text-gray-800 text-3xl"
+                           class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 text-3xl"
                            style="color: #063466;">
                             <i class="fas fa-graduation-cap"></i>
                         </a>
@@ -73,24 +73,24 @@
             <!-- Main Content Column -->
             <div class="lg:col-span-8">
                 <!-- About Me Section -->
-                <div class="mb-14">
-                    <h2 class="text-4xl font-bold text-gray-900 mb-8">
+                <div class="mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-8">
                         About Me
                     </h2>
-                    <div class="prose prose-xl text-gray-600 max-w-none text-lg leading-relaxed">
+                    <div class="prose prose-xl text-gray-600 dark:text-gray-300 max-w-none text-lg leading-relaxed">
                         {{ if .Site.Params.bio }}
                             {{ .Site.Params.bio | markdownify }}
                         {{ else }}
-                        <p class="mb-7">
+                        <p class="mb-6">
                             Hey there! I'm {{ .Site.Params.name }}, a passionate developer who loves creating innovative solutions 
                             and exploring new technologies. I specialize in building modern web applications and solving 
                             complex technical challenges.
                         </p>
-                        <p class="mb-7">
+                        <p class="mb-6">
                             Currently, I'm working on exciting projects that combine cutting-edge technologies with 
                             practical applications. I enjoy collaborating with teams and contributing to open-source projects.
                         </p>
-                        <p class="mb-7">
+                        <p class="mb-6">
                             When I'm not coding, you can find me exploring new technologies, reading tech blogs, 
                             or working on side projects. I believe in continuous learning and sharing knowledge with the community.
                         </p>
@@ -98,53 +98,58 @@
                     </div>
                 </div>
                 
-                <!-- Two Column Layout for Interests and Education -->
-                <div class="grid md:grid-cols-2 gap-12">
+                <!-- Two Column Layout for Interests and Education/Experience -->
+                <div class="grid md:grid-cols-2 gap-10">
                     <!-- Areas of Interest -->
                     <div>
-                        <h3 class="text-2xl font-semibold text-gray-900 mb-7">
+                        <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                             Areas of Interest
                         </h3>
-                        <ul class="space-y-4">
+                        <ul class="space-y-3">
                             {{ if .Site.Params.interests }}
                                 {{ range .Site.Params.interests }}
-                                <li class="text-gray-600 text-lg">
-                                    <span class="mr-3 text-lg">⚡</span>{{ . }}
+                                <li class="text-gray-600 dark:text-gray-300 text-lg">
+                                    <span class="inline-block w-2 h-2 rounded-full mr-4" style="background-color: #063466;"></span>
+                                    {{ . }}
                                 </li>
                                 {{ end }}
                             {{ else }}
-                            <li class="text-gray-600 text-lg">
-                                <span class="mr-3 text-lg">💻</span>Full-Stack Web Development
+                            <li class="text-gray-600 dark:text-gray-300 text-lg">
+                                <span class="inline-block w-2 h-2 rounded-full mr-4" style="background-color: #063466;"></span>
+                                Full-Stack Web Development
                             </li>
-                            <li class="text-gray-600 text-lg">
-                                <span class="mr-3 text-lg">🤖</span>Machine Learning & AI
+                            <li class="text-gray-600 dark:text-gray-300 text-lg">
+                                <span class="inline-block w-2 h-2 rounded-full mr-4" style="background-color: #063466;"></span>
+                                Machine Learning & AI
                             </li>
-                            <li class="text-gray-600 text-lg">
-                                <span class="mr-3 text-lg">☁️</span>Cloud Computing & DevOps
+                            <li class="text-gray-600 dark:text-gray-300 text-lg">
+                                <span class="inline-block w-2 h-2 rounded-full mr-4" style="background-color: #063466;"></span>
+                                Cloud Computing & DevOps
                             </li>
-                            <li class="text-gray-600 text-lg">
-                                <span class="mr-3 text-lg">🌟</span>Open Source Contributions
+                            <li class="text-gray-600 dark:text-gray-300 text-lg">
+                                <span class="inline-block w-2 h-2 rounded-full mr-4" style="background-color: #063466;"></span>
+                                Open Source Contributions
                             </li>
                             {{ end }}
                         </ul>
                     </div>
-
+                    
                     <!-- Education/Experience -->
                     <div>
-                        <h3 class="text-2xl font-semibold text-gray-900 mb-7">
+                        <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                             {{ if .Site.Params.education }}Education{{ else }}Experience{{ end }}
                         </h3>
-                        <div class="space-y-7">
+                        <div class="space-y-6">
                             {{ if .Site.Params.education }}
                                 {{ range .Site.Params.education }}
                                 <div class="flex items-start space-x-4">
-                                    <span class="text-lg mt-1">🏫</span>
-                                    <div class="flex-1 min-w-0">
-                                        <p class="font-semibold text-gray-900 text-lg leading-tight">
+                                    <i class="fas fa-graduation-cap mt-1 text-xl" style="color: #063466;"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-900 dark:text-white text-lg">
                                             {{ .degree }}
                                             {{ if .year }}, {{ .year }}{{ end }}
                                         </p>
-                                        <p class="text-gray-600 text-base mt-1">
+                                        <p class="text-gray-600 dark:text-gray-300 text-lg">
                                             {{ .institution }}
                                         </p>
                                     </div>
@@ -152,23 +157,23 @@
                                 {{ end }}
                             {{ else }}
                             <div class="flex items-start space-x-4">
-                                <span class="text-lg mt-1">🏢</span>
-                                <div class="flex-1 min-w-0">
-                                    <p class="font-semibold text-gray-900 text-lg">
+                                <i class="fas fa-briefcase mt-1 text-xl" style="color: #063466;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 dark:text-white text-lg">
                                         Senior Developer, 2022 - Present
                                     </p>
-                                    <p class="text-gray-600 text-base">
+                                    <p class="text-gray-600 dark:text-gray-300 text-lg">
                                         Tech Company Inc.
                                     </p>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
-                                <span class="text-lg mt-1">💼</span>
-                                <div class="flex-1 min-w-0">
-                                    <p class="font-semibold text-gray-900 text-lg">
+                                <i class="fas fa-briefcase text-blue-500 mt-1 text-xl"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 dark:text-white text-lg">
                                         Full-Stack Developer, 2020 - 2022
                                     </p>
-                                    <p class="text-gray-600 text-base">
+                                    <p class="text-gray-600 dark:text-gray-300 text-lg">
                                         Startup Solutions Ltd.
                                     </p>
                                 </div>
@@ -177,7 +182,6 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
